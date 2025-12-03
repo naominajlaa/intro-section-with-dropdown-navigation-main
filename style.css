@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(34, 100%, 50%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Navbar */
+#top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav .first-half {
+  width: 34%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-cta {
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#login {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+
+#register {
+  padding: 10px 20px;
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+/* Main Section */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+main .intro-section {
+  width: 50%;
+  padding: 0 50px;
+}
+
+main .intro-section h1 {
+  font-size: 5rem;
+}
+
+main .intro-section p {
+  font-size: 1.2rem;
+  margin: 50px 0;
+}
+
+main .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main img {
+  width: 50%;
+}
+
+main .intro-section a {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+main .sponsor-list{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+main .sponsor-list img{
+    width: 20%;
+}
